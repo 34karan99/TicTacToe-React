@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+  font-family: "Fredoka", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-top: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s ;
+  }
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading{
+  display:flex;
+  padding-top: 2rem;
+  color: rgb(32, 118, 145);
+  padding-left: 10rem;
+  margin-right: 0;
+
+}
+
+.resetButton{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(226, 226, 236);;
+  color: rgb(32, 118, 145);
+  font-size: 2rem;
+  font-family: "Fredoka", sans-serif;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  display: block;
+}
+
+.head{
+  display: flex;
+  justify-content: space-around;
+  
+  background-color: rgb(226, 226, 236);
+  border-radius: 1rem;
+  
+}
+
+.body{
+  background-color: rgb(226, 226, 236);
+}
+.container{
+  background-color: white;
+  box-shadow: 0px 0px 16px #888;
+}
+
+.darkmode-btn{
+  padding-top: 2rem;
+  display: inline;
+  justify-content: flex-start;
+
+}
+
+.headLogo{display: flex;}
